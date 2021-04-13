@@ -73,4 +73,4 @@ Většina vývojových prostředí bývá navržených přímo pro vývoj v konk
 
 - <i>Alt+Shift+Ins</i> - označování kódu po sloupcích.
 
-## [Další: První program...](prvni-program.md)
+## [Další: První program...](prvni-projekt.md)

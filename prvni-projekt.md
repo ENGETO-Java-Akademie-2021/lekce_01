@@ -117,4 +117,4 @@ String aPoem = "Roses are red, Java is hard, if I want bread, I better start.. l
 String[] names = {"Martin", "Marcin", "Rasmus", "Luka", "Mihael"};
 ```
 
-## [Úkoly: oprav chyby](ukoly01-promenne)
+## [Úkoly: oprav chyby](ukoly01-promenne/README.md)
