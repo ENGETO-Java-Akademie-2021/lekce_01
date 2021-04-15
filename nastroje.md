@@ -60,5 +60,5 @@ My budeme při práci používat IDE IntelliJ IDEA. Pojďme se seznámit s&nbsp;
 
 - _Ctrl-J_ - zobrazí seznam zkratek.
 
-## [Další: Úkoly](ukoly.md)
+## [Pokračování: Proměnné a&nbsp;datové typy](promenne-a-datove-typy.md)
 ## [Zpět na přehled lekce](README.md)

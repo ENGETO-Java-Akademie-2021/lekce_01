@@ -19,15 +19,15 @@ Pro jejich rozlišení existuje jednoduché pravidlo - primitivní datové typy 
 
 ### Primitivní datové typy
 
-- <b>byte</b> - může pojmout celé číslo z rozsahu od -128 do 127
+- byte - může pojmout celé číslo z rozsahu od -128 do 127 (**pozor**, nikoli 0..255 jako ve většině jazyků)
 
-- <b>short</b> - může pojmout celé číslo z rozsahu od -32768 do 32767
+- short - může pojmout celé číslo z rozsahu od -32768 do 32767
 
 - <b>int</b> - může pojmout celé číslo z rozsahu od -2147483648 do 2147483647
 
 - <b>long</b> - může pojmout celé číslo z rozsahu od -9223372036854775808 do 9223372036854775807
 
-- <b>float</b> - může pojmout reálné číslo z rozsahu od -3.40282e+38 do -3.40282e+38
+- float - může pojmout reálné číslo z rozsahu od -3.40282e+38 do -3.40282e+38
 
 - <b>double</b> - může pojmout reálné číslo z rozsahu od -1.79769e+308 do -3.79769e+308
 
@@ -43,7 +43,16 @@ Referenčních je na rozdíl od těch primitivních teoreticky neomezený počet
 ```java
 String aPoem = "Roses are red, Java is hard, if I want bread, I better start.. learning!";
 ```
-- <b>Array</b> - může pojmout libovolný počet prvků stejného datového typu
+
+- Veškeré třídy v&nbsp;Javě. Například: <b>LocalDate</b> - ukládá datum nebo <b>Color</b> - uchování barev. Ale také všechny třídy, které si vytvoříme sami
+```java
+LocalDate datum = LocalDate.of(2021,4,15);
+Color barva = Color.BLUE;
+Zakaznik zakaznik = new Zakaznik();
+```
+
+
+- <b>pole (array)</b> - může pojmout libovolný počet prvků stejného datového typu
 ```java
 String[] names = {"Martin", "Marcin", "Rasmus", "Luka", "Mihael"};
 ```
@@ -65,4 +74,49 @@ final String ZAKLADNI_OSLOVENI = "Dobrý den,";
 private int myAgeIsNotThisNumber = 23; 
 ```
 
-## [Úkoly](README.md#Úkoly)
+## Práce s proměnnými
+
+### Vytvoření &mdash; deklarace
+```java
+DatovyTyp nazevPromenne;
+```
+Příklady:
+```java
+Color barva;
+int zaklad;
+int pocetOpakovani;
+String jmeno;
+String celeJmeno;
+```
+
+### Přiřazení hodnoty
+```java
+nazevPromenne = vyrazVracejiciHodnotu;
+```
+Příklady:
+```java
+barva = Color.RED;
+pocetOpakovani = zaklad + 1;
+jmeno = "Karel";
+celeJmeno = jmeno + " Dvořák";
+```
+
+
+### Použití hodnoty
+```java
+nazevPromenne;
+```
+Příklady:
+```java
+System.out.println(pocetOpakovani);
+String jmenoUzivatele = celeJmeno;
+```
+
+## Pojmenování proměnných
+
+- Používej `camelCase` notaci
+    - První písmeno malé, pak vždy každé další slovo musí začínat velkým písmenem.
+- Doporučení: Nepoužívej v názvech diakritiku.
+
+## [Pokračování: Úkoly](README.md#Úkoly)
+## [Osnova lekce](README.md)

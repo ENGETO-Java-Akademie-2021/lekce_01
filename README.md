@@ -12,9 +12,7 @@ Před první hodinou byste měli mít naistalované základní nástoje, které 
 
  - [Co je to Java](java-a-jdk.md)
  
- - [Nástroje vývojáře](nastroje.md)
- 
- - [První projekt: Hello World](prvni-projekt.md)
+  - [První projekt: Hello World](prvni-projekt.md)
  
  - [Nástroje vývojáře](nastroje.md)
  
