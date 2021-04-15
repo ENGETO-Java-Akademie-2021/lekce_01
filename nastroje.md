@@ -60,4 +60,5 @@ My budeme při práci používat IDE IntelliJ IDEA. Pojďme se seznámit s&nbsp;
 
 - _Ctrl-J_ - zobrazí seznam zkratek.
 
-## [Další: První program...](prvni-projekt.md)
+## [Další: Úkoly](ukoly.md)
+## [Zpět na přehled lekce](README.md)

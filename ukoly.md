@@ -20,5 +20,5 @@ V&nbsp;metodě main vytvoř následující proměnné:
 
 8. Rodné číslo klienta.
 
-## [Úkoly &mdash; oprav kód](../ukoly01-oprav-kod/README.md)
-## [Osnova lekce](../README.md)
+## [Úkoly &mdash; oprav kód](ukoly01-oprav-kod/README.md)
+## [Osnova lekce](README.md)

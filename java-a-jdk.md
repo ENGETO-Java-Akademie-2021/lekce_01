@@ -1,13 +1,14 @@
 # Co je to Java?
  
- První vydání jazyka se datuje do roku 1995, vývoj však započal na začátku devadesátých let. Jazyk Java byl navržen jako řešení pro vývoj platformně nezávislých programů. Program napsaný v Javě tedy jde spustit na libovolném z podporovaných operačních systémů (na Windows, v Linuxu, MacOS,...). 
+ První vydání jazyka se datuje do roku 1995, vývoj však započal na začátku devadesátých let. 
  
  ## Překlad a bajtkód
- Proto má Java na rozdíl od ostatních jazyků rozdílný způsob překladu a spouštění. Většina jazyků se _překládá_ (_kompiluje_) přímo do sekvence instrukcí dané procesorové platformy, které zapíšeme do souboru (například soubor .exe ve Windows) a následně se tento soubor spouští. Java místo toho vytváří takzvaný _bajtkód_. To je sekvence instrukcí fiktivního procesoru. Tyto instrukce pak nelze spustit přímo přímo v&nbsp;procesoru počítače — spouští se ve virtuálním stroji, který se nazývá JVM (Java Virtual Machine). 
+ - Jazyk Java byl navržen jako řešení pro vývoj platformně nezávislých programů. Program napsaný v Javě tedy jde spustit na libovolném z podporovaných operačních systémů (na Windows, v Linuxu, MacOS,...).
+ - Proto má Java na rozdíl od ostatních jazyků rozdílný způsob překladu a spouštění. Většina jazyků se _překládá_ (_kompiluje_) přímo do sekvence instrukcí dané procesorové platformy, které zapíšeme do souboru (například soubor .exe ve Windows) a následně se tento soubor spouští. Java místo toho vytváří takzvaný _bajtkód_. To je sekvence instrukcí fiktivního procesoru. Tyto instrukce pak nelze spustit přímo přímo v&nbsp;procesoru počítače — spouští se ve virtuálním stroji, který se nazývá JVM (Java Virtual Machine). 
  
- - Výhodou tohoto přístupu je jeho nezávislost na platformě. Kdekoliv máš k&nbsp;dispozici JVM, můžeš spouštět jakýkoli program v&nbsp;Javě. 
+ - **Výhodou** tohoto přístupu je jeho **nezávislost na platformě**. Kdekoliv máš k&nbsp;dispozici JVM, můžeš spouštět jakýkoli program v&nbsp;Javě. 
  
- - Zároveň je to omezení — bez JVM program nespustíš a&nbsp;při spouštění je třeba aktivovat JVM, nestačí jen „kliknout“ na spustitelný program (resp. stačí, pokud je systém správně nastavený).
+ - Zároveň je to **omezení** — **bez JVM program nespustíš** a&nbsp;při spouštění je třeba aktivovat JVM, nestačí jen „kliknout“ na spustitelný program (resp. stačí, pokud je systém správně nastavený).
 
 ## Objektově orientovaný jazyk
 Java je objektově orientovaný jazyk. To znamená, že Java není čistě objektový jazyk (vše je objekt), ale nacházejí se zde i&nbsp;primitivní datové typy, jež nejsou reprezentovány jako objekty. 
@@ -96,4 +97,5 @@ Instalujeme tedy:
  - <b>JDK</b> (+ JRE a JVM) pro vývoj Java aplikací
  - <b>JRE</b> (+ JVM) pokud chceme pouze spouštět Java aplikace
 
-## [Další: Nástroje a&nbsp;strategie programátora](nastroje.md)
+## [Další: První projekt](prvni-projekt.md)
+## [Zpět na přehled lekce](README.md)

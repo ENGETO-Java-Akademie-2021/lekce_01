@@ -63,4 +63,5 @@ public class Ruler {
 }
 ```
 
-## [Pokračování: Ovládání prostředí IDEA](nastroje.md)
+## [Pokračování: Vývojářské nástroje](nastroje.md)
+## [Zpět na přehled lekce](README.md)
