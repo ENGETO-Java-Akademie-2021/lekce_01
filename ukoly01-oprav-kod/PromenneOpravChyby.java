@@ -1,4 +1,4 @@
-package com.engeto.ja202104;
+package com.example;
 
 import java.math.BigDecimal;
 

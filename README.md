@@ -10,20 +10,20 @@ Před první hodinou byste měli mít naistalované základní nástoje, které 
 
 ## Co nás čeká
 
- - [Co je to Java](#co-je-to-java)
+ - [Co je to Java](java-a-jdk.md)
  
- - [Vývojářské nástoje](#vývojářské-nástroje): [JDK](#jdk), [IntelliJ IDEA](#intellij-idea)
+ - [Nástroje vývojáře](nastroje.md)
  
- - [První projekt](#první-projekt)
+ - [První projekt: Hello World](prvni-projekt.md)
  
- - [Balíčky](#balíčky)
+ - [Nástroje vývojáře](nastroje.md)
  
- - [Proměnná](#proměnná)
+ - [Proměnné a&nbsp;datové typy](promenne-a-datove-typy.md)
  
- - [Datový typ](#datový-typ)
 
  ## Úkoly
 
- - [Oprav chybný kód](#ukoly01-promenne)
+ - [Připrav proměnné](ukoly.md)
+ - [Oprav chybný kód](ukoly01-oprav-kod/README.md)
 
  ## [Pusťme se do toho: Co je Java?](java-a-jdk.md)

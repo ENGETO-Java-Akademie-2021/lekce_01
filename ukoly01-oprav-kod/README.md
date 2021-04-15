@@ -1,8 +1,8 @@
 # Úkol: Pokus se opravit chyby v kódu
 
-Stáhni si kód prvního projektu:
+Zkopíruj si kód prvního projektu:
 
- [ukoly01-promenne]()
+ [PromenneOpravChyby.java](PromenneOpravChyby.java)
 
 Odkomentuj postupně všechny metody. V&nbsp;každé je chyba, kterou musíš najít a&nbsp;opravit.
 

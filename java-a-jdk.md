@@ -19,7 +19,9 @@ Java se proti mnoha jiným jazykům vyznačuje zejména bezpečností při sprá
 
 - ale práce s&nbsp;pamětí může být o&nbsp;méně efektivní po stránce rychlosti i&nbsp;potřebné kapacity paměti &mdash; spoléháme na „inteligenci“ Garbage Collectoru, nemůžeme činnost ovlivnit sami. 
 
-## A jak program v&nbsp;Javě vypadá
+## A jak zápis programu v&nbsp;Javě vypadá?
+
+Tady je malá ukázka _zdrojového kódu_ v&nbsp;Javě &mdash; toto je zápis programu, který budeme vytvářet:
 
 ```java
 // popis umístění - složka
@@ -53,4 +55,45 @@ class CoalMine {
 }
 ```
 
-## [Další: Nástroje, které budeme používat](nastroje.md)
+# IDE, JDK, JRE a různé platformy
+
+Jak to tedy v&nbsp;Javě funguje?
+
+1. Vývojář napíše program (_zdrojový kód_)
+    - K tomu využije vývojové prostředí (_IDE_), nebo jakýkoli textový editor.
+
+![JDK, JRE a různé platformy](img/jdk-jvm-bytecode.png)
+
+## Shrňme si to
+
+### IDE
+_Integrated Development Environment_ je nástroj pro psaní zdrojového kódu. „Chytrý textový editor“, který má programátorovi usnadnit samotné psaní kódu. Často zahrnuje
+
+- **editor** - textový editor speciálně navržený pro editování zdrojového kódu, zvládá zvýrazňovat syntax, formátovat kód, tak aby vyhovoval nastaveným konvencím a byl pro člověka, který kód edituje, čitelnější (v některé programovacích jazycích jde všechen kód napsat na jeden řádek a vše bude fungovat, ale pokud pak přijde potřeba změnit nějakou drobnost v kódu, tak se v jednořádkovém kódu nikdo nevyzná), umí našeptávat, zvýrazňovat chyby, či automaticky uzavírat závorky
+
+- **debugger** - je nástroj, který programátorovi umožnuje zkoumat, proč jeho program (ne)funguje tak, jak jak funguje - do "podezřelých" částí kódu si totiž může přidávat "breakpointy" - body, ve kterých se provádění programu zastaví do doby, než je sám ručně pustí, případně nabízí možnost jít po jednotlivých příkazech a v každém bodě, ve kterém se zastaví, vypíše vždy svůj oktuální stav - hodnoty proměnných a to, jak do té části kódu, ve které se nachází, došel
+
+- **kompilátor** - je nástroj, který překládá zdrojový kód zapsaný ve vyšším programovacím jazyce (který napíšeme my v editoru) do jazyka nižsího tak, aby mu rozumněl počítač - aby vznikl _bytecode_. V&nbsp;případě Javy je kompilátor je součástí JDK.
+
+- **integrovaný verzovací systém** - některá IDE mají integrovaný i verzovací systém - o tom, co to verzovací systém je, si řekneme dále - u [GITu](#GIT) verzovacího systému, který budeme používat my
+
+- <b>object browser</b> - prohlížeč komponent nacházejících se balíčcích softwaru, jejich hierarchii, metody a proměnné
+
+- <b>nástroje pro tvorbu uživatelského rozhraní</b> - některá IDE obsahují i nástroje pro snadnou tvorbu uživatelského rozhraní
+
+Některá vývojová prostředí jsou navržena přímo pro vývoj v konkrétním programovacím jazyce. Jiná podporují větší počet programovacích jazyků. My budeme používat _IntelliJ IDEA_. Její nejznámější alternativy (pokud jde o vývoj v&nbsp;Javě) jsou [Eclipse](https://www.eclipse.org/eclipseide/) a [NetBeans](https://netbeans.apache.org/)
+
+
+## JDK
+_Java Development Kit_ je soubor základních nástrojů pro **vývoj aplikací** v Javě od společnosti Oracle. Obsahuje kupříkladu překladač zdrojového kódu, debugger pro ladění programu, či nástroj pro tvorbu dokumentace. Dále také obsahuje JRE. 
+
+## JRE
+_Java Runtime Environment_ je soubor základních tříd a podpůrných souborů určený ke **spouštění Java aplikací**. Jestli jste hráli třeba Minecraft, nebo editovali nějaký dokument v&nbsp;OpenOffice, tak jste se již s JRE, byť nevědomky, setkali. JRE také obsahuje JVM.
+
+JVM (_Java Virtual Machine_) je takzvaný interpeter - program, který náš program řádek pořádku provádí.
+
+Instalujeme tedy:
+ - <b>JDK</b> (+ JRE a JVM) pro vývoj Java aplikací
+ - <b>JRE</b> (+ JVM) pokud chceme pouze spouštět Java aplikace
+
+## [Další: Nástroje a&nbsp;strategie programátora](nastroje.md)
