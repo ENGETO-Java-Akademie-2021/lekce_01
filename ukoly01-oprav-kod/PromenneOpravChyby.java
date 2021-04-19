@@ -2,7 +2,7 @@ package com.example;
 
 import java.math.BigDecimal;
 
-public class PromenneOpravChyby {
+public class Main {
 
 //    public static void ukol1() {
 //        System.out.println(Hello world!)
