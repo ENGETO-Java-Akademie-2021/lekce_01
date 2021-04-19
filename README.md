@@ -25,3 +25,7 @@ Před první hodinou byste měli mít naistalované základní nástoje, které 
  - [Oprav chybný kód](ukoly01-oprav-kod/README.md)
 
  ## [Pusťme se do toho: Co je Java?](java-a-jdk.md)
+
+ ## Doplnění
+
+ - [Další oblíbené programovací jazyky](https://github.com/ENGETO-Java-Akademie-2021/content/blob/main/lekce_02/jazyky.md)
