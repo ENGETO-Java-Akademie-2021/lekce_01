@@ -29,3 +29,7 @@ Před první hodinou byste měli mít naistalované základní nástoje, které 
  ## Doplnění
 
  - [Další oblíbené programovací jazyky](https://github.com/ENGETO-Java-Akademie-2021/content/blob/main/lekce_02/jazyky.md)
+ 
+---
+
+[Zpět na přehled akademie](https://github.com/ENGETO-Java-Akademie-2021/intro)
