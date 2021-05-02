@@ -26,7 +26,7 @@ Nejznámější z nich je [Stack Overflow](https://stackoverflow.com/) zde lze n
 
 My budeme při práci používat IDE IntelliJ IDEA. Pojďme se seznámit s&nbsp;ovládáním prostředí.
 
-### Klávesové zkratky a další vychytávky pro vývoj IDEI
+### Klávesové zkratky
 
 - <i>Ctrl+C</i> a <i>Ctrl+V</i> - začneme zlehka - tuhle kombinaci si jistě pamatujete ještě za základní školy, když jste tvořili "referáty". Tady se chová skoro stejně. <b>Skoro.</b> Jak už jsme si řekli, tak editor zdrojového kódu je chytřejší poznámkový blok a v tomto případě je potřeba si na todát pozor, protože pokud kopírujete kód z tohoto editoru a zase ho do tohoto editoru vkládáte, tak se Vám nezkopírují jen označené řádky, ale i kontext. Dále je také potřeba dát si pozor na kopírování větších částí kódu, když jste "včera psali něco podobného", protože z vlastní zkušenosti vím, že čím delší kód, který se někdo chystá zrecyklovat, tím větší pravděpodobnost, že tam nějakou drobnost zapomene upravit a následně mu to bude fungovat úplně jinak, než by čekal. Mnohdy je proto užitečnější použít "kód ze včera" jen jako inspiraci a nový kód napsat od nuly. (existuje i lepší způsob, jak řešit opakující se podobný kód, ale k tomu se dostaneme až v pozdějších lekcích)
 
@@ -56,9 +56,18 @@ My budeme při práci používat IDE IntelliJ IDEA. Pojďme se seznámit s&nbsp;
 
 - <i>Alt+Shift+Ins</i> - označování kódu po sloupcích.
 
-- Zkratky - zkuste v&nbsp;metodě napsat `sout`.
+- _Ctrl+D_ - duplikace označeného bloku nebo aktuálního řádku.
+
+### Zkracování kódu
+
+- Zkratky - zkuste v&nbsp;metodě napsat `sout` a&nbsp;zmáčkonout Enter.
 
 - _Ctrl-J_ - zobrazí seznam zkratek.
+
+Oblíbené zkratky:
+
+- `sout` ... `System.out.println()`
+- `psvm` ... `public static void main(String[] args) {}`
 
 ## [Pokračování: Proměnné a&nbsp;datové typy](promenne-a-datove-typy.md)
 ## [Zpět na přehled lekce](README.md)
